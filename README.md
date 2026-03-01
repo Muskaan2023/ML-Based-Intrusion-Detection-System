@@ -68,6 +68,7 @@ Scikit-learn
 Random Forest Classifier
 
 ⚙️ Methodology
+
 1️⃣ Data Preprocessing
 
 Loaded training and testing datasets
@@ -101,6 +102,7 @@ RandomForestClassifier(
     class_weight={0:1, 1:5},
     random_state=42
 )
+
 4️⃣ Handling Class Imbalance
 
 Applied class weighting to increase importance of attack class
@@ -159,16 +161,6 @@ Threshold tuning for security-sensitive applications
 
 Real-world model evaluation strategy
 
-📌 Future Improvements
-
-Add ROC-AUC visualization
-
-Implement real-time packet detection simulation
-
-Try advanced models (XGBoost, LightGBM)
-
-Multi-class attack type classification
-
 📎 How to Run
 
 Download NSL-KDD dataset
@@ -182,3 +174,4 @@ pip install -r requirements.txt
 Run:
 
 python IDS_model.py"# ML-Based-Intrusion-Detection-System" 
+
