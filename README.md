@@ -123,16 +123,16 @@ Accuracy
 
 📈 Final Results
 
-Accuracy: 86%
+Accuracy: 87%
 
 Confusion Matrix:
-[[ 9354   357]
- [ 2816 10017]]
+[[ 9324   387]
+ [ 2655 10178]]
 Performance:
 Metric	Normal	Attack
-Precision	0.77	0.97
-Recall	0.96	0.78
-F1-score	0.85	0.86
+Precision	0.78	0.96
+Recall	0.96	0.79
+F1-score	0.86	0.87
 🔍 Security Tradeoff Analysis
 
 In cybersecurity systems:
@@ -174,4 +174,5 @@ pip install -r requirements.txt
 Run:
 
 python IDS_model.py"# ML-Based-Intrusion-Detection-System" 
+
 
